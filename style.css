@@ -1,0 +1,32 @@
+
+
+.headerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.top{
+height: 5rem;
+max-width: 40rem;
+text-align: center;
+}
+
+.text{
+    background-color: coral;
+    flex-grow: 2;
+}
+
+.emily{
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+
+.code{
+    flex-grow: 1;
+}
+
+img{
+    width: 20rem;
+}
