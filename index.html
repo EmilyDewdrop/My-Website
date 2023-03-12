@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="normalize.css" />
     <title>Emily Turner's Founders and Coders Wesbite</title>
@@ -33,46 +36,86 @@
   <body>
     <section class="introContainer">
       <article>
-        <h2>I'm Emily (she/they) &#x2014 writer, teacher, storyteller, public transport enthusiast, and future software developer!</h2>
-        <p>In 2017, when working as a primary teacher in North London, I introduced my students to Minecraft Hour of Code, and discovered I enjoyed it even more than the Year 4s. For a couple of years, whenever I had an existential crisis, I'd search out coding bootcamps. In 2019, I even went to some sessions at Founders and Coders. But I'd never had a desk job before, and I wasn't sure I was ready to commit (pun intentend).</p>
-        <p>After a lot of teaching educational workshops from home during the pandemic, I decided to switch to working for the Learning and Development Team in a Charity. Though I found most of the work frustrating, the part of the job I loved was creating elearnings. Though I wasn't using code, I would need to program each element of the elearning to do exactly what I wanted for the user to interact with it. I could spend entire days absorbed in the work, not even realising how much time had gone by. This is when I started to realise that software development might be the career for me.</p>
-        <p>After coming to F&C meet-ups (particularly the support circle) and working through the application projects, I'm even more convinced that this is the right choice for me. I don't think I've ever found any work quite as satisfying as writing some code and having it work.</p>
+        <h2>
+          I'm Emily (she/they) - writer, teacher, storyteller, public transport
+          enthusiast, and future software developer!
+        </h2>
+        <p>
+          In 2017, when working as a primary teacher in North London, I
+          introduced my students to Minecraft Hour of Code, and discovered I
+          enjoyed it even more than the Year 4s. For a couple of years, whenever
+          I had an existential crisis, I'd search out coding bootcamps. In 2019,
+          I even went to some sessions at Founders and Coders. But I'd never had
+          a desk job before, and I wasn't sure I was ready to commit (pun
+          intentend).
+        </p>
+        <p>
+          After a lot of teaching educational workshops from home during the
+          pandemic, I decided to switch to working for the Learning and
+          Development Team in a Charity. Though I found most of the work
+          frustrating, the part of the job I loved was creating elearnings.
+          Though I wasn't using code, I would need to program each element of
+          the elearning to do exactly what I wanted for the user to interact
+          with it. I could spend entire days absorbed in the work, not even
+          realising how much time had gone by. This is when I started to realise
+          that software development might be the career for me.
+        </p>
+        <p>
+          After coming to F&C meet-ups (particularly the support circle) and
+          working through the application projects, I'm even more convinced that
+          this is the right choice for me. I don't think I've ever found any
+          work quite as satisfying as writing some code and having it work.
+        </p>
       </article>
       <figure>
-     <figure>
-        <img class="babyEmily" src="Images/ComputerToddler.jpeg" alt="Emily, a white toddler with short, dark, curly hair, sits at an 80s computer looking excited.">
+        <img
+          class="babyEmily"
+          src="Images/ComputerToddler.jpeg"
+          alt="Emily, a white toddler with short, dark, curly hair, sits at an 80s computer looking excited."
+        />
         <figcaption>
           I started at a young age, but there has been a 30+ year interruption.
         </figcaption>
       </figure>
     </section>
     <header class="busSectionHeader">
-      <h2>Now you're in the driver's seat. Look through possible destinations by clicking through the bus blind, and then decide where to alight and explore in more detail!</h2>
+      <h2>
+        Now you're in the driver's seat. Look through possible destinations by
+        clicking through the bus blind, and then decide where to alight and
+        explore in more detail!
+      </h2>
     </header>
     <section class="destinationContainer">
-  <figure class="busContainer">
-    <img src="Images/bus.png" alt="A cartoon drawing of a London Bus (new routemaster) head-on.">
-    <div class="busBlind" onclick="clickMeEvent(this)">Click here to learn more about me!</div>
-  </figure>
-  <div class="busStops">
-<div class="stop"></div>
-<div class="stop"></div>
-<div class="stop"></div>
-<div class="stop"></div>
-<div class="stop"></div>
-<div class="stop"></div>
-  </div>
-  <nav class="busStopName">
-<div class="stopName" id="canada">Canada</div>
-<div class="stopName" id="autism">Autism</div>
-<div class="stopName" id="parliament">Parliament</div>
-<div class="stopName" id="busTrip">Bus trip</div>
-<div class="stopName" id="betterWorld">Better World</div>
-<div class="stopName" id="learnMore">Learn more</div>
-  </nav>
-<aside>
-  Seen an interesting destination on the bus?<br> Click the appropriate stop to learn more!
-</aside>
+      <figure class="busContainer">
+        <img
+          class="bus"
+          src="Images/bus.png"
+          alt="A cartoon drawing of a London Bus (new routemaster) head-on."
+        />
+        <div class="busBlind" onclick="clickMeEvent(this)">
+          Click here to learn more about me!
+        </div>
+      </figure>
+      <div class="busStops">
+        <div class="stop" id="canada"></div>
+        <div class="stop" id="autism"></div>
+        <div class="stop" id="parliament"></div>
+        <div class="stop" id="busTrip"></div>
+        <div class="stop" id="betterWorld"></div>
+        <div class="stop" id="learnMore"></div>
+      </div>
+      <nav class="busStopName">
+        <div class="stopName">Canada</div>
+        <div class="stopName">Autism</div>
+        <div class="stopName">Parliament</div>
+        <div class="stopName">Bus trip</div>
+        <div class="stopName">Better World</div>
+        <div class="stopName">Learn more</div>
+      </nav>
+      <aside id="infoTest">
+        Seen an interesting destination on the bus?<br />
+        Click the appropriate stop to learn more!
+      </aside>
     </section>
     <script src="index.js"></script>
   </body>
