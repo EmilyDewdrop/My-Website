@@ -93,19 +93,22 @@ figcaption{
 .destinationContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
     flex-wrap: wrap;
     height: 10rem;
 }
 
 .bus{
-max-height: 45rem;
-object-fit: cover;
+    max-height: 45rem;
+    object-fit: cover;
+    flex-shrink: 1;
 }
+
 .busContainer{
         position: relative;
         flex-shrink: 1;
-        width: min-content;
+        width: max-content;
+        display: flex;
       }
 
 .busBlind{
@@ -120,6 +123,11 @@ object-fit: cover;
     transform: translate(-50%, -50%);
 }
 
+.stopsAndText{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+}
 .busStops{
     display: flex;
     flex-direction: column;
@@ -165,8 +173,9 @@ aside{
     font-family: "Overpass";
     font-size: 1.75rem;
     text-align: center;
-    width: min-content;
-    padding: 5%;
+    max-width: 70rem;
+    max-height: 45rem;
+    padding: 10%;
 }
 
 @media only screen and (max-width: 1250px) {
