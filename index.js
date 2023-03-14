@@ -38,26 +38,26 @@ function explainTextaut() {
 
 
 
-    function clickMeEvent(obj) {
-        if (obj.innerHTML == "Click here to learn more about me!") {obj.innerHTML = "I grew up on the Canadian Prairies";
+    function clickBlind(obj) {
+     if (obj.innerText == "Click here to learn more about me!") {obj.innerText = "I grew up on the Canadian Prairies";
         return;
        }
-       if (obj.innerHTML == "I grew up on the Canadian Prairies") {obj.innerHTML = "I was diagnoised with autism in 2019";
+      if (obj.innerText == "I grew up on the Canadian Prairies") {obj.innerText = "I was diagnoised with autism in 2019";
        return;
       }
-      if (obj.innerHTML == "I was diagnoised with autism in 2019") {obj.innerHTML = "I worked in the Houses of Parliament";
+      if (obj.innerText == "I was diagnoised with autism in 2019") {obj.innerText = "I worked in the Houses of Parliament";
       return;
      }
-     if (obj.innerHTML == "I worked in the Houses of Parliament") {obj.innerHTML = "I went viral for riding buses in February!";
+     if (obj.innerText == "I worked in the Houses of Parliament") {obj.innerText = "I went viral for riding buses in February!";
      return;
      }
-     if (obj.innerHTML == "I went viral for riding buses in February!") {obj.innerHTML = "I really want to create tech that makes the world better";
+     if (obj.innerText == "I went viral for riding buses in February!") {obj.innerText = "I really want to create tech for a better world";
      return;
      }
-     if (obj.innerHTML == "I really want to create tech that makes the world better") {obj.innerHTML = "Alight now and explore more!";
+     if (obj.innerText == "I really want to create tech for a better world") {obj.innerText = "Alight now and explore more!";
      return;
      }
-     if (obj.innerHTML == "Alight now and explore more!") {obj.innerHTML = "Click here to learn more about me!";
+     if (obj.innerText == "Alight now and explore more!") {obj.innerText = "Click here to learn more about me!";
      return;
      }
      }
