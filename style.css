@@ -121,6 +121,7 @@ figcaption{
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .stopsAndText{
@@ -134,7 +135,7 @@ figcaption{
     justify-content: space-around;
     background-color: papayawhip;
     border-left: 10px solid blue;
-    
+    cursor: pointer;
 }
 
 .stop{
