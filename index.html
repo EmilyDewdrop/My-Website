@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="normalize.css" />
     <title>Emily Turner's Founders and Coders Wesbite</title>
@@ -118,7 +124,74 @@
           Click the appropriate stop to learn more!
         </aside>
       </div>
+    </div>
     </section>
+  
+    <div>
+      <div class="container">
+        <div class="project hobby">
+          <h1>Hobby Page</h1>
+          <img
+            class="galleryIMG"
+            id="logo"
+            src="Images/CoverArt.png"
+            alt="The Roundel Round We Go cover art, featuring a 38 Stock underground train breaking through the Os in the words."
+          />
+          <button type="hobbyButton" onclick="toggleText1()">Learn more</button>
+          <p id="hobbyText" style="display: none">
+            This is a website designed to showcase the podcast 'Roundel Round We
+            Go', a podcast about the London Underground created by my partner
+            and me. The page features inforamtion about the podcasts as well
+            embedded latest episodes.
+          </p>
+        </div>
+        <div class="project movie">
+          <h1>Movie Data</h1>
+          <img
+            class="galleryIMG"
+            class="popcorn"
+            src="Images/popcorn-g614148969_1920.jpg"
+            alt="An old-fashion red and white striped box of popcorn."
+          />
+          <button type="movieButton" onclick="toggleText2()">Learn more</button>
+          <p id="movieText" style="display: none">
+            It's like internet movie database, just a little bit more limited in
+            its scope! Select a film to read a list of details, or add your own
+            film!
+          </p>
+        </div>
+        <div class="project website">
+          <h1>Website</h1>
+          <img
+            class="galleryIMG"
+            class="Emily"
+            src="Images/Emily.jpg"
+            alt="Emily, a white femme person in their mid 30s, wears a colourful 80s dress and stands in front of a concrete wall with street art and some tress."
+          />
+          <button type="movieButton" onclick="toggleText3()">Learn more</button>
+          <p id="websiteText" style="display: none">
+            This is my personal website talking all about me and why I'd like to
+            train as a Software Developer with Founders & Coders. Depending on
+            where you're reading this gallery, you might actually be on that
+            page right now. In that case if you click on the link below, you can
+            create a non-JavaScript loop!
+          </p>
+        </div>
+        <div class="project game">
+          <h1>Game</h1>
+          <img
+            class="galleryIMG"
+            class="controller"
+            src="Images/controller.png"
+            alt="A cartoon image of a gaming controller on a green and blue background."
+          />
+          <button type="movieButton" onclick="toggleText4()">Learn more</button>
+          <p id="gameText" style="display: none">
+            I haven't built this yet, but at one point this will feature my
+            game!
+          </p>
+        </div>
+      </div>
     <script src="index.js"></script>
   </body>
 </html>
