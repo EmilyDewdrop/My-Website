@@ -253,6 +253,10 @@ margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
 
+.clickForText{
+    display: none;
+}
+
 @media only screen and (max-width: 1250px) {
     .headerContainer {
         flex-wrap: wrap;

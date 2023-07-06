@@ -33,7 +33,7 @@ function explainTextaut() {
     document.getElementById("learnMore").addEventListener("click", explainTextMore);
 
     function explainTextMore() {
-        document.getElementById("infoTest").innerHTML = "Scroll down to see the gallery I created to highlight the other projects in my Founders and Coders application.";
+        document.getElementById("infoTest").innerHTML = "Scroll down to see the gallery I created to highlight the other projects in my Founders and Coders application. If you click on the images, the github repository or website will open in new tabs.";
     }
 
 
