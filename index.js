@@ -15,7 +15,7 @@ function explainTextaut() {
   document.getElementById("parliament").addEventListener("click", explainTextPar);
 
   function explainTextPar() {
-      document.getElementById("infoTest").innerHTML = "One of my favourite ever jobs was with the Education department at The Houses of Parliament. Every day for two years I would take school groups from around the country on tours and introduce them to how Parliamentary democracy worked. Though I left for a myriad of reasons, including low pay and feeling restricted by online impartiality requirements (something I've been reflecting on with the recently BBC debates), I considered the role a great honour.";
+      document.getElementById("infoTest").innerHTML = "One of my favourite ever jobs was with the Education department at The Houses of Parliament. Every day for two years I would take school groups from around the country on tours and introduce them to how Parliamentary democracy worked. Though I left for a myriad of reasons, including low pay and feeling restricted by online impartiality requirements, I considered the role a great honour.";
     }
 
     document.getElementById("busTrip").addEventListener("click", explainTextBus);

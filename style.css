@@ -13,17 +13,13 @@ figure{
 margin: 0 !important;
 }
 
-.top{
-    text-align: center;
-    height: 12rem;
-}
-
-.text{
-    background-color: coral;
-    min-width: 25rem;
+.topText{
+    background-color: lightskyblue;
     flex-grow: 2;
+    max-width: 100%;
     height: 12rem;
     flex-shrink: 1;
+    text-align: center;
 }
 
 h1{
@@ -31,14 +27,19 @@ h1{
     font-size: 3em;
 }
 
-.emily{
+#topEmily{
     flex-grow: 1;
     flex-shrink: 1;
+    max-width: 100%;
+    text-align: center;
+    height: 12rem;
+    margin: 0;
 }
 
-.code{
+#topCode{
     flex-grow: 1;
     flex-shrink: 1;
+    max-width: 100%;
 }
 
 header img{
@@ -49,7 +50,7 @@ header img{
 }
 
 body{
-    background-color: aquamarine;
+    background-color: papayawhip;
 }
 
 .introContainer {
@@ -57,8 +58,9 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+     background-image: linear-gradient(to right, lightpink, palegreen);
 }
 
 article{
@@ -78,13 +80,12 @@ article{
 figcaption{
     width: 20rem;
     text-align: center;
-    margin-left: 3rem;
     font-family: 'Overpass';
 }
 
 .busSectionHeader{
     text-align: center;
-    background-color: pink;
+    background-color: plum;
     font-family: 'Overpass';
     font-size: 2rem;
     padding: 5px;
@@ -95,19 +96,18 @@ figcaption{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 10rem;
 }
 
 .bus{
     max-height: 45rem;
-    object-fit: cover;
     flex-shrink: 1;
+    max-width: 100%
 }
 
 .busContainer{
         position: relative;
         flex-shrink: 1;
-        width: max-content;
+        /* width: max-content; */
         display: flex;
       }
 
@@ -164,7 +164,7 @@ figcaption{
     padding-top: 4px;
 }
 aside{
-    flex-grow: 2;
+    flex-grow: 0;
     flex-shrink: 1;
     background-color: papayawhip;
     display: flex;
@@ -174,9 +174,14 @@ aside{
     font-family: "Overpass";
     font-size: 1.75rem;
     text-align: center;
-    max-width: 70rem;
     max-height: 45rem;
     padding: 10%;
+}
+
+#infoTest{
+    min-width: none;
+    max-width: 40rem;
+    background-color: papayawhip;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
@@ -186,7 +191,6 @@ aside{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    padding-top: 35rem;
     background-color: lemonchiffon;
 }
 
@@ -272,5 +276,37 @@ margin-right: 0.5rem;
   @media only screen and (max-width: 1410px) {
     h1 {
         font-size: 2.5em;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+   
+    .babyEmily {
+      max-width: 100%;
+      margin: 0rem;
+    }
+    .busBlind{
+        font-size: 1rem;
+        width: 9.5rem;
+    }
+    .stopsAndText{
+        height: 85rem;
+        background-color: papayawhip;
+    }
+    #infoTest{
+        padding-top: 20rem;
+    }
+    #topEmily{
+        max-width: 100%; 
+    }
+    #topCode{
+        max-width: 100%;
+    }
+
+    figure{
+        max-width: 100%;
+    }
+    .busSectionHeader{
+        font-size: 1rem;
     }
   }
