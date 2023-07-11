@@ -261,17 +261,6 @@ margin-right: 0.5rem;
     display: none;
 }
 
-@media only screen and (max-width: 1250px) {
-    .headerContainer {
-        flex-wrap: wrap;
-    }
-    .text{
-        max-width: 25rem;
-    }
-    .infoTest{
-        max-width: 10rem;
-    }  
-  }
 
   @media only screen and (max-width: 1410px) {
     h1 {
@@ -279,7 +268,80 @@ margin-right: 0.5rem;
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1300px) {
+    .headerContainer {
+        flex-wrap: wrap;
+    }
+    .text{
+        max-width: 25rem;
+    }
+    .stopsAndText{
+        height: 45rem;
+        width: 30rem;
+    }
+    .infoTest{
+        max-width: 10rem;
+    }  
+    header img{
+        object-position: 100% 20%;
+    }
+    .topText{
+        height: fit-content;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .headerContainer {
+        flex-wrap: wrap;
+    }
+    .topText{
+        height: fit-content;
+    }
+    .text{
+        max-width: 25rem;
+    }
+    .infoTest{
+        max-width: 10rem;
+    }  
+    .busContainer{
+        max-width: 40%;
+        position: relative;
+        left: 30%;
+        
+    }
+    .busBlind{
+        font-size: 1rem;
+        width: 10rem;
+    }
+    .stopsAndText{
+        height: 30rem;
+        width: 100%;
+    }
+    header img{
+        object-position: 100% 20%;
+    }
+    .project{
+        width: 20rem;
+      }
+      .galleryIMG{
+        max-width: 100%;
+  }
+
+  @media screen and (max-width: 920px){
+    .busSectionHeader{
+        font-size: 1.5rem;
+    }
+    .stopsAndText{
+        height: 50rem;
+        background-color: papayawhip;
+    }
+    #infoTest{
+        padding-top: 10rem;
+    }
+  }
+
+   
+  @media only screen and (max-width: 760px) {
    
     .babyEmily {
       max-width: 100%;
@@ -310,3 +372,136 @@ margin-right: 0.5rem;
         font-size: 1rem;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+   
+    .babyEmily {
+      max-width: 100%;
+      margin: 0rem;
+    }
+    .busBlind{
+        font-size: 1rem;
+        width: 9.5rem;
+    }
+    .stopsAndText{
+        height: 60rem;
+        background-color: papayawhip;
+    }
+    #infoTest{
+        padding-top: 10rem;
+    }
+    #topEmily{
+        max-width: 100%; 
+    }
+    #topCode{
+        max-width: 100%;
+    }
+
+    figure{
+        max-width: 100%;
+    }
+    .busSectionHeader{
+        font-size: 1rem;
+    }
+
+    .busContainer{
+        max-width: 100%;
+        left: 0%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+   
+    .babyEmily {
+      max-width: 100%;
+      margin: 0rem;
+    }
+    .busBlind{
+        font-size: 1rem;
+        width: 9.5rem;
+    }
+    .stopsAndText{
+        height: 90rem;
+        background-color: papayawhip;
+    }
+    #infoTest{
+        padding-top: 22rem;
+    }
+    #topEmily{
+        max-width: 100%; 
+    }
+    #topCode{
+        max-width: 100%;
+    }
+
+    figure{
+        max-width: 100%;
+    }
+    .busSectionHeader{
+        font-size: 1rem;
+    }
+
+    .busContainer{
+       max-width: 100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 300px){
+    h1{
+        font-size: 2.2rem;
+    }
+    header img{
+        object-fit: fill;
+    }
+    .babyEmily {
+        max-width: 100%;
+        margin: 0rem;
+      }
+
+      figcaption{
+        width: auto;
+      }
+      .busBlind{
+          font-size: 0.6rem;
+          width: 7rem;
+      }
+      .stopsAndText{
+          height: 69rem;
+          background-color: papayawhip;
+          max-width: max-content;
+      }
+
+      .stopName{
+        font-size: 14px;
+      }
+      #infoTest{
+          padding-top: 10rem;
+      }
+
+      aside{
+        font-size: 1.25rem;;
+      }
+      #topEmily{
+          max-width: 100%; 
+      }
+      #topCode{
+          max-width: 100%;
+      }
+  
+      figure{
+          max-width: 100%;
+      }
+      .busSectionHeader{
+          font-size: 1rem;
+      }
+
+      .project{
+        width: 15rem;
+      }
+
+      .galleryIMG{
+        max-width: 100%;
+      }
+    }
+  
