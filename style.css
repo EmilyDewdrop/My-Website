@@ -81,6 +81,8 @@ figcaption{
     width: 20rem;
     text-align: center;
     font-family: 'Overpass';
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .busSectionHeader{
